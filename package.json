@@ -1,0 +1,18 @@
+{
+  "name": "jogo-da-cobrinha",
+  "version": "1.0.0",
+  "description": "jogo com socket",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Diego Leandro Alves Abreu",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "http": "^0.0.1-security",
+    "socket.io": "^4.5.1",
+    "socketio": "^1.0.0"
+  }
+}

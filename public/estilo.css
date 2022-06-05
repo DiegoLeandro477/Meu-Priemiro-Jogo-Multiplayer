@@ -1,0 +1,23 @@
+*, body, html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box-main {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#screen {
+    background-color: rgb(255, 235, 235);
+    border-radius: 20px;
+    border: 10px solid #CCC;
+    image-rendering: pixelated;
+    image-rendering: crisp-edges;
+    image-rendering: -moz-crisp-edges;
+    width: 400px;
+    height: 400px;
+}
